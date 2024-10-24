@@ -1,0 +1,39 @@
+.flex-space-between {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.logo {
+    width: 30%;
+    margin-right: 10px;
+    
+}
+
+.header-link {
+    width: 25%;
+    @media (max-width: 768px) {
+        width: 50%;
+    }
+}
+
+.header-link {
+    a {
+        width: 50%;
+        min-width: 72px;
+        text-decoration: none;
+        color: #000;
+        margin: 0 10px;
+        transition: color 0.3s ease;
+
+        &.active {
+            text-decoration: underline;
+        }
+
+        &:hover {
+            color: #FF6060;
+        }
+        
+    }
+}

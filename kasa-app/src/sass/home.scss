@@ -1,0 +1,17 @@
+
+.card-container {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    background-color: #F6F6F6;
+    border-radius: 25px;
+    
+}
+
+.cards-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
